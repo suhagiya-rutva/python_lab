@@ -12,13 +12,13 @@ print(b)
 c=["apple","banana","cherry"]
 print(c)
 
-d=["apple","banana","cherry"]
+d=("apple","banana","cherry")
 print(d)
 
 e=range(6)
 print(e)
 
-f={"name":"rutva","age":19}
+f={"name":"nensi","age":19}
 print(f)
 
 g=frozenset({"apple","banana","cherry"})
@@ -31,10 +31,8 @@ print(z)
 n=bytearray(5)
 print(n)
 
-o=memoryview(bytes(5))
-print(o)
+n=memoryview(bytes(5))
+print(0)
 
 p=None
 print(p)
-
-
